@@ -32,30 +32,12 @@ A proposta da atividade é praticar conceitos básicos de desenvolvimento web.
 
 ```bash
 📁 meus-sites-favoritos
+├── img
 ├── index.html
 ├── style.css
 └── README.md
 ```
 
----
-
-## 🔗 Sites Utilizados
-
-- YouTube
-- GitHub
-- ChatGPT
-- Google
-- Spotify
-
----
-
-## 🖥️ Como Executar o Projeto
-
-1. Faça o download dos arquivos  
-2. Abra a pasta do projeto  
-3. Execute o arquivo `index.html` no navegador  
-
----
 
 ## 📚 Objetivo Educacional
 
@@ -63,7 +45,6 @@ Projeto desenvolvido para fins educacionais na ETEC, com foco no aprendizado de:
 
 - HTML
 - CSS
-- Estruturação de páginas web
 - Organização de conteúdo
 
 ---
