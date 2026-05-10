@@ -1,0 +1,104 @@
+body {
+    background-color:black;
+}
+
+h1, h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+}
+
+header {
+    z-index: 1000;   
+}
+
+.my-header {
+    display: flex;
+}
+
+.my-header h1{
+    position: fixed;
+    margin: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    opacity: 0.9;
+}
+
+.my-top-image img {
+    width: 100%;
+    position: fixed;
+    z-index: -1; 
+    opacity: 0.5
+}
+
+
+.titulo h1 {
+    position: fixed;
+    width: 800px;
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin: 35px;
+    margin-top: 120px;
+    opacity: 0.9;
+    height: 500px;
+}
+
+.my-all-sites {
+  position: relative;
+  margin-top: 390px; /* espaço abaixo da linha */
+  height: 250px;     /* altura visível */
+  overflow-y: scroll; /* só os quadrados rolam */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.my-sites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 colunas */
+    gap: 10px;
+    margin: 30px;
+    align-items: end;
+}
+
+.site {
+    display:grid;
+    align-content: center;
+
+}
+.site img {
+    width: 200px;
+    border-color: aliceblue 2px solid;
+    background-color:aliceblue;
+      transition: transform 0.3s ease, filter 0.3s ease;
+  filter: brightness(80%); /* imagem mais "suave" inicialmente */
+  opacity: 0.8;
+}
+
+
+.site img:hover {
+  transform: scale(1.05);   /* leve ampliada */
+  filter: brightness(100%); /* mais nítida ao passar o mouse */
+}
+
+.site h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+hr {
+    position: fixed;
+  top: 357px;   /* distância do topo da janela */
+  left: 0;
+  width: 900px;
+}
+
+footer {
+    margin: 20px;
+    margin-top: 10px;
+}
